@@ -738,6 +738,10 @@ function App() {
                 />
                 <span className="rank">0/3</span>
               </div>
+              <div className="arrow eleventh">
+                <div></div>
+                <div></div>
+              </div>
               <div className="talent"></div>
             </div>
 
@@ -758,9 +762,6 @@ function App() {
                   className="icon"
                 />
                 <span className="rank">0/5</span>
-              </div>
-              <div className="arrow eleventh">
-                <div></div>
               </div>
               <div className="talent">
                 <img
@@ -962,7 +963,11 @@ function App() {
 
             <div className="talentRow">
               <div className="talent">
-                <img src="https://wow.zamimg.com/images/wow/icons/large/ability_bullrush.jpg" alt="" className="icon" />
+                <img
+                  src="https://wow.zamimg.com/images/wow/icons/large/ability_bullrush.jpg"
+                  alt=""
+                  className="icon"
+                />
                 <span className="rank">0/1</span>
               </div>
               <div className="arrow fourteenth">

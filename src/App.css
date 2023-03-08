@@ -275,6 +275,7 @@
 .tenth {
   top: 521px;
   left: 115px;
+  width: 16px;
 }
 
 .tenth :first-child {
@@ -285,15 +286,23 @@
 }
 
 .eleventh {
-  top: 155px;
-  left: 228px;
+  top: 88px;
+  left: 229px;
 }
 
 .eleventh :first-child {
-  background-image: url("https://wow.zamimg.com/images/TalentCalc/arrows/right.png");
+  background-image: url("https://wow.zamimg.com/images/TalentCalc/arrows/rightdown.png");
   background-position: right center;
   height: 15px;
-  width: 25px;
+  width: 56px;
+}
+
+.eleventh :last-child {
+  background-image: url("https://wow.zamimg.com/images/TalentCalc/arrows/down.png");
+  background-position: bottom center;
+  width: 97.5px;
+  height: 40px;
+  background-repeat: no-repeat;
 }
 
 .twelveth {
