@@ -141,8 +141,8 @@
 
 .arrow {
   position: absolute;
-  height: 56px;
-  width: 56px;
+  height: max-content;
+  width: max-content;
 }
 
 .first {
@@ -154,6 +154,7 @@
   background-image: url("https://wow.zamimg.com/images/TalentCalc/arrows/rightdown.png");
   background-position: right center;
   height: 15px;
+  width: 56px;
 }
 
 .first :last-child {
@@ -260,6 +261,7 @@
   background-image: url("https://wow.zamimg.com/images/TalentCalc/arrows/rightdown.png");
   background-position: right center;
   height: 15px;
+  width: 56px;
 }
 
 .nineth :last-child {
